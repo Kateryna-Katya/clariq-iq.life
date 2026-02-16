@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Инициализация иконок
+    // 1. Inicjalizacja ikon
     lucide.createIcons();
 
-    // 2. Инициализация AOS (Animate on Scroll)
+    // 2. Inicjalizacja AOS (Animate on Scroll)
     AOS.init({
         duration: 1000,
         once: true,
         offset: 100
     });
 
-    // 3. Мобильное меню (Бургер)
+    // 3. Menu mobilne (Burger)
     const burger = document.querySelector('.burger');
     const overlay = document.getElementById('menu-overlay');
     const mobileLinks = document.querySelectorAll('.mobile-nav__link');
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     burger.addEventListener('click', toggleMenu);
     mobileLinks.forEach(link => link.addEventListener('click', toggleMenu));
 
-    // 4. Скролл-эффекты для Header
+    // 4. Efekty skrolowania dla Header
     const header = document.querySelector('.header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 5. Three.js - Эффект "Neural Link"
+    // 5. Three.js - Efekt "Neural Link"
     const initThree = () => {
         const container = document.getElementById('canvas-container');
         if(!container) return;
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     initThree();
 
-    // 6. Форма Контактов (Валидация, Капча, AJAX)
+    // 6. Formularz kontaktowy (Walidacja, Captcha, AJAX)
     const contactForm = document.getElementById('ai-contact-form');
     if(contactForm) {
         const phoneInput = document.getElementById('phone-input');
@@ -114,28 +114,28 @@ document.addEventListener('DOMContentLoaded', () => {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
             if (parseInt(captchaAnswerInput.value) !== correctResult) {
-                formResponse.textContent = "Неверный ответ на капчу.";
+                formResponse.textContent = "Nieprawidłowa odpowiedź na captcha.";
                 formResponse.className = "form__response error";
                 generateCaptcha();
                 return;
             }
 
             const submitBtn = contactForm.querySelector('.form__submit');
-            submitBtn.textContent = "Отправка...";
+            submitBtn.textContent = "Wysyłanie...";
             submitBtn.disabled = true;
 
             setTimeout(() => {
-                formResponse.textContent = "Заявка отправлена успешно!";
+                formResponse.textContent = "Zgłoszenie zostało wysłane pomyślnie!";
                 formResponse.className = "form__response success";
                 contactForm.reset();
                 generateCaptcha();
-                submitBtn.textContent = "Начать сейчас";
+                submitBtn.textContent = "Zacznij teraz";
                 submitBtn.disabled = false;
             }, 1500);
         });
     }
 
-    // 7. Cookie Popup Logic
+    // 7. Logika Cookie Popup
     const cookiePopup = document.getElementById('cookie-popup');
     const cookieAccept = document.getElementById('cookie-accept');
 

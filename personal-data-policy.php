@@ -12,17 +12,17 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
 
 ?>
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        <?= $domainTitle ?> — AI-практики для каждого
+        <?= $domainTitle ?> — Praktyki AI dla każdego
     </title>
-<link rel="icon"
-    href="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='16' cy='16' r='14' stroke='%23c1ff00' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23c1ff00'%3E%3Canimate attributeName='opacity' values='1;0.5;1' dur='3s' repeatCount='indefinite' /%3E%3C/circle%3E%3Cpath d='M16 2L16 6M16 26L16 30M30 16L26 16M6 16L2 16' stroke='%23c1ff00' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"
-    type="image/svg+xml">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='16' cy='16' r='14' stroke='%23c1ff00' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23c1ff00'%3E%3Canimate attributeName='opacity' values='1;0.5;1' dur='3s' repeatCount='indefinite' /%3E%3C/circle%3E%3Cpath d='M16 2L16 6M16 26L16 30M30 16L26 16M6 16L2 16' stroke='%23c1ff00' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"
+        type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -46,119 +46,119 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
             </a>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li><a href="./#hero" class="nav__link">Главная</a></li>
-                    <li><a href="./#capabilities" class="nav__link">Возможности</a></li>
-                    <li><a href="./#workflow" class="nav__link">Как это работает</a></li>
-                    <li><a href="./#education" class="nav__link">Обучение</a></li>
-                    <li><a href="./#community" class="nav__link">Сообщество</a></li>
+                    <li><a href="./#hero" class="nav__link">Strona główna</a></li>
+                    <li><a href="./#capabilities" class="nav__link">Możliwości</a></li>
+                    <li><a href="./#workflow" class="nav__link">Jak to działa</a></li>
+                    <li><a href="./#education" class="nav__link">Edukacja</a></li>
+                    <li><a href="./#community" class="nav__link">Społeczność</a></li>
                 </ul>
             </nav>
-            <a href="./#contact" class="btn btn--outline header__btn">Связаться</a>
+            <a href="./#contact" class="btn btn--outline header__btn">Kontakt</a>
             <button class="burger" aria-label="Menu">
                 <span></span>
             </button>
         </div>
     </header>
-<main>
-    <section class="pages">
-        <div class="container">
-            <h1 data-aos="fade-right">Политика обработки персональных данных</h1>
 
-            <h2 data-aos="fade-up">1. Общие положения</h2>
-            <p data-aos="fade-up">
-                Настоящая политика обработки персональных данных (далее —
-                «Политика») определяет порядок и условия обработки персональных
-                данных, предпринимаемые платформой <strong><?= $domainTitle ?></strong> (далее — «Оператор»), и
-                устанавливает меры по обеспечению безопасности этих данных в соответствии с требованиями GDPR.
-            </p>
-            <p data-aos="fade-up">
-                1.1. Важнейшей целью Оператор считает соблюдение прав и свобод человека при
-                обработке его персональных данных, включая защиту прав на
-                неприкосновенность частной жизни и личную тайну.
-            </p>
-            <p data-aos="fade-up">
-                1.2. Настоящая Политика применяется ко всей информации, которую
-                Оператор может получить о посетителях (далее — «Пользователи»)
-                веб-сайта <strong><?= $fullDomain ?></strong>.
-            </p>
+    <main>
+        <section class="pages">
+            <div class="container">
+                <h1 data-aos="fade-right">Polityka przetwarzania danych osobowych</h1>
 
-            <h2 data-aos="fade-up">2. Основные понятия</h2>
-            <ul data-aos="fade-up">
-                <li>
-                    <strong>Веб-сайт</strong> — ресурс, расположенный по адресу 
-                    <strong><?= $fullDomain ?></strong>, предоставляющий информацию о практиках применения ИИ.
-                </li>
-                <li><strong>Пользователь</strong> — любой посетитель веб-сайта.</li>
-                <li>
-                    <strong>Персональные данные</strong> — любая информация,
-                    относящаяся прямо или косвенно к Пользователю сайта.
-                </li>
-                <li>
-                    <strong>Безопасность данных</strong> — защищенность
-                    данных от неправомерного доступа, уничтожения или изменения.
-                </li>
-            </ul>
+                <h2 data-aos="fade-up">1. Postanowienia ogólne</h2>
+                <p data-aos="fade-up">
+                    Niniejsza polityka przetwarzania danych osobowych (dalej —
+                    „Polityka”) określa zasady i warunki przetwarzania danych osobowych
+                    podejmowane przez platformę <strong><?= $domainTitle ?></strong> (dalej — „Operator”) oraz
+                    ustanawia środki zapewniające bezpieczeństwo tych danych zgodnie z wymogami RODO (GDPR).
+                </p>
+                <p data-aos="fade-up">
+                    1.1. Najważniejszym celem Operatora jest przestrzeganie praw i wolności człowieka podczas
+                    przetwarzania jego danych osobowych, w tym ochrona prawa do
+                    prywatności oraz tajemnicy osobistej.
+                </p>
+                <p data-aos="fade-up">
+                    1.2. Niniejsza Polityka ma zastosowanie do wszystkich informacji, które
+                    Operator może uzyskać o odwiedzających (dalej — „Użytkownicy”)
+                    serwis internetowy <strong><?= $fullDomain ?></strong>.
+                </p>
 
-            <h2 data-aos="fade-up">3. Данные, которые мы обрабатываем</h2>
-            <p data-aos="fade-up">Оператор может обрабатывать следующие категории данных:</p>
-            <ul data-aos="fade-up">
-                <li>
-                    <strong>Предоставляемые Пользователем:</strong>
-                    <ul>
-                        <li>Имя (для персонализации общения);</li>
-                        <li>Адрес электронной почты (для ответов на запросы);</li>
-                        <li>Номера телефонов (с валидацией по стандартам Германии).</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Собираемые автоматически:</strong>
-                    <ul>
-                        <li>
-                            Обезличенные данные о посетителях (файлы «cookie») с помощью сервисов
-                            статистики. Это включает IP-адрес, тип браузера и параметры устройства.
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+                <h2 data-aos="fade-up">2. Podstawowe pojęcia</h2>
+                <ul data-aos="fade-up">
+                    <li>
+                        <strong>Serwis internetowy</strong> — zasób znajdujący się pod adresem 
+                        <strong><?= $fullDomain ?></strong>, dostarczający informacji o praktykach zastosowania AI.
+                    </li>
+                    <li><strong>Użytkownik</strong> — każda osoba odwiedzająca serwis internetowy.</li>
+                    <li>
+                        <strong>Dane osobowe</strong> — wszelkie informacje
+                        odnoszące się bezpośrednio lub pośrednio do Użytkownika serwisu.
+                    </li>
+                    <li>
+                        <strong>Bezpieczeństwo danych</strong> — ochrona danych
+                        przed nieuprawnionym dostępem, zniszczeniem lub zmianą.
+                    </li>
+                </ul>
 
-            <h2 data-aos="fade-up">4. Цели обработки</h2>
-            <ul data-aos="fade-up">
-                <li>
-                    Предоставление доступа к образовательному контенту платформы <strong><?= $domainTitle ?></strong>.
-                </li>
-                <li>
-                    Установление обратной связи, включая направление уведомлений о новых технологиях и AI-инструментах.
-                </li>
-                <li>
-                    Исполнение заявок Пользователя на консалтинговые услуги в странах ЕС.
-                </li>
-                <li>
-                    Улучшение качества работы сайта на основе аналитики.
-                </li>
-            </ul>
+                <h2 data-aos="fade-up">3. Dane, które przetwarzamy</h2>
+                <p data-aos="fade-up">Operator może przetwarzać następujące kategorie danych:</p>
+                <ul data-aos="fade-up">
+                    <li>
+                        <strong>Dostarczane przez Użytkownika:</strong>
+                        <ul>
+                            <li>Imię (w celu personalizacji komunikacji);</li>
+                            <li>Adres e-mail (w celu odpowiadania na zapytania);</li>
+                            <li>Numery telefonów (z walidacją według standardów polskich).</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Gromadzone automatycznie:</strong>
+                        <ul>
+                            <li>
+                                Zanonimizowane dane o odwiedzających (pliki „cookie”) za pomocą usług
+                                statystycznych. Obejmuje to adres IP, typ przeglądarki i parametry urządzenia.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
 
-            <h2 data-aos="fade-up">5. Безопасность и хранение данных</h2>
-            <ul data-aos="fade-up">
-                <li>
-                    Оператор принимает технические меры защиты данных в соответствии с нормами европейского законодательства.
-                </li>
-                <li>
-                    Данные никогда не передаются третьим лицам без законных на то оснований.
-                </li>
-                <li>
-                    Пользователь может в любой момент отозвать согласие, направив письмо на
-                    <a href="mailto:support@<?= $fullDomain ?>" class="text-gradient" style="text-decoration: none; font-weight: 600;">support@<?= $fullDomain ?></a>.
-                </li>
-            </ul>
+                <h2 data-aos="fade-up">4. Cele przetwarzania</h2>
+                <ul data-aos="fade-up">
+                    <li>
+                        Zapewnienie dostępu do treści edukacyjnych platformy <strong><?= $domainTitle ?></strong>.
+                    </li>
+                    <li>
+                        Nawiązywanie kontaktu zwrotnego, w tym przesyłanie powiadomień o nowych technologiach i narzędziach AI.
+                    </li>
+                    <li>
+                        Realizacja zapytań Użytkownika dotyczących usług doradczych w krajach UE.
+                    </li>
+                    <li>
+                        Poprawa jakości działania serwisu na podstawie analityki.
+                    </li>
+                </ul>
 
-            <div class="pages-footer" data-aos="fade-in" style="margin-top: 50px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.05);">
-                <p style="font-size: 0.9rem; color: var(--text-muted);">Актуальная версия Политики <?= $domainTitle ?>: Февраль 2026</p>
-                <a href="./" class="btn btn--outline" style="margin-top: 20px; font-size: 0.8rem; padding: 10px 20px;">Вернуться на главную</a>
+                <h2 data-aos="fade-up">5. Bezpieczeństwo i przechowywanie danych</h2>
+                <ul data-aos="fade-up">
+                    <li>
+                        Operator podejmuje techniczne środki ochrony danych zgodnie z normami prawodawstwa europejskiego.
+                    </li>
+                    <li>
+                        Dane nigdy nie są przekazywane osobom trzecim bez uzasadnionych podstaw prawnych.
+                    </li>
+                    <li>
+                        Użytkownik może w dowolnym momencie wycofać zgodę, wysyłając wiadomość na adres:
+                        <a href="mailto:support@<?= $fullDomain ?>" class="text-gradient" style="text-decoration: none; font-weight: 600;">support@<?= $fullDomain ?></a>.
+                    </li>
+                </ul>
+
+                <div class="pages-footer" data-aos="fade-in" style="margin-top: 50px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.05);">
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Aktualna wersja Polityki <?= $domainTitle ?>: Luty 2026</p>
+                    <a href="./" class="btn btn--outline" style="margin-top: 20px; font-size: 0.8rem; padding: 10px 20px;">Wróć do strony głównej</a>
+                </div>
             </div>
-        </div>
-    </section>
-</main>
-
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container footer__grid">
@@ -169,71 +169,67 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                         <?= $domainTitle ?>
                     </span>
                 </a>
-                <p class="footer__description">Технологии, которые работают на вас. Переосмыслите подход к развитию
-                    вместе с экспертной поддержкой.</p>
+                <p class="footer__description">Technologie, które pracują dla Ciebie. Przemyśl na nowo podejście do rozwoju wraz z profesjonalnym wsparciem.</p>
             </div>
             <div class="footer__col">
-                <h4 class="footer__title">Меню</h4>
+                <h4 class="footer__title">Menu</h4>
                 <ul class="footer__links">
-                    <li><a href="./#hero">Главная</a></li>
-                    <li><a href="./#capabilities">Возможности</a></li>
-                    <li><a href="./#workflow">Процесс</a></li>
-                    <li><a href="./#contact">Контакты</a></li>
+                    <li><a href="./#hero">Strona główna</a></li>
+                    <li><a href="./#capabilities">Możliwości</a></li>
+                    <li><a href="./#workflow">Proces</a></li>
+                    <li><a href="./#contact">Kontakt</a></li>
                 </ul>
             </div>
             <div class="footer__col">
-                <h4 class="footer__title">Документы</h4>
+                <h4 class="footer__title">Dokumenty</h4>
                 <ul class="footer__links">
-                    <li><a href="./privacy.php">Privacy Policy</a></li>
-                    <li><a href="./cookies.php">Cookie Policy</a></li>
-                    <li><a href="./terms.php">Terms of Service</a></li>
-                    <li><a href="./return.php">Return Policy</a></li>
-                    <li><a href="./disclaimer.php">Disclaimer</a></li>
-                    <li><a href="./contact.php">Contact Us</a></li>
-                    <li><a href="./personal-data-policy.php">Data Policy</a></li>
+                    <li><a href="./privacy.php">Polityka Prywatności</a></li>
+                    <li><a href="./cookies.php">Polityka Cookies</a></li>
+                    <li><a href="./terms.php">Regulamin Usług</a></li>
+                    <li><a href="./return.php">Polityka Zwrotów</a></li>
+                    <li><a href="./disclaimer.php">Zastrzeżenia</a></li>
+                    <li><a href="./contact.php">Kontakt</a></li>
+                    <li><a href="./personal-data-policy.php">Polityka Danych</a></li>
                 </ul>
             </div>
             <div class="footer__col">
-                <h4 class="footer__title">Контакты</h4>
+                <h4 class="footer__title">Kontakt</h4>
                 <ul class="footer__contact-info">
-                    <li><i data-lucide="phone"></i> +493064515935</li>
-                    <li><i data-lucide="mail"></i> hello@
-                        <?= $fullDomain ?>
-                    </li>
-                    <li><i data-lucide="map-pin"></i> Friedrichstraße 176, 10117 Berlin, Germany</li>
+                    <li><i data-lucide="phone"></i> +48226332549</li>
+                    <li><i data-lucide="mail"></i> hello@<?= $fullDomain ?></li>
+                    <li><i data-lucide="map-pin"></i> ul. Marszałkowska 126/134, 00-008 Warszawa, Polska</li>
                 </ul>
             </div>
         </div>
         <div class="container footer__bottom">
-            <p>&copy; 2026
-                <?= $domainTitle ?>. Все права защищены. Предложение активно в странах ЕС.
-            </p>
+            <p>&copy; 2026 <?= $domainTitle ?>. Wszelkie prawa zastrzeżone. Oferta aktywna w krajach UE.</p>
         </div>
     </footer>
-<div class="menu-overlay" id="menu-overlay">
-    <nav class="mobile-nav">
-        <ul class="mobile-nav__list">
-            <li><a href="./#hero" class="mobile-nav__link">Главная</a></li>
-            <li><a href="./#capabilities" class="mobile-nav__link">Возможности</a></li>
-            <li><a href="./#workflow" class="mobile-nav__link">Процесс</a></li>
-            <li><a href="./#education" class="mobile-nav__link">Обучение</a></li>
-            <li><a href="./#community" class="mobile-nav__link">Сообщество</a></li>
-            <li><a href="./#contact" class="mobile-nav__link btn btn--primary">Начать сейчас</a></li>
-        </ul>
-    </nav>
-</div>
 
-<div class="cookie-popup" id="cookie-popup">
-    <div class="cookie-popup__content">
-        <p class="cookie-popup__text">
-            Этот сайт использует cookies для улучшения работы. Подробнее — в нашей
-            <a href="./cookies.php">Cookie политике</a>.
-        </p>
-        <button class="btn btn--primary btn--sm" id="cookie-accept">Принять</button>
+    <div class="menu-overlay" id="menu-overlay">
+        <nav class="mobile-nav">
+            <ul class="mobile-nav__list">
+                <li><a href="./#hero" class="mobile-nav__link">Strona główna</a></li>
+                <li><a href="./#capabilities" class="mobile-nav__link">Możliwości</a></li>
+                <li><a href="./#workflow" class="mobile-nav__link">Proces</a></li>
+                <li><a href="./#education" class="mobile-nav__link">Edukacja</a></li>
+                <li><a href="./#community" class="mobile-nav__link">Społeczność</a></li>
+                <li><a href="./#contact" class="mobile-nav__link btn btn--primary">Zacznij teraz</a></li>
+            </ul>
+        </nav>
     </div>
-</div>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <div class="cookie-popup" id="cookie-popup">
+        <div class="cookie-popup__content">
+            <p class="cookie-popup__text">
+                Ta strona używa plików cookie w celu poprawy jakości usług. Więcej informacji — w naszej 
+                <a href="./cookies.php">Polityce Cookies</a>.
+            </p>
+            <button class="btn btn--primary btn--sm" id="cookie-accept">Akceptuję</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="script.js"></script>
 </body>
 
